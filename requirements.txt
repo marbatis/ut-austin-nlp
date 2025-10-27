@@ -5,3 +5,5 @@ nbclient
 jupyterlab
 scikit-learn
 matplotlib
+yt-dlp
+youtube-transcript-api
