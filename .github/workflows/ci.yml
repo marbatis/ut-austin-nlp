@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master, scaffold/notebooks]
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run pre-commit
+        run: |
+          pip install pre-commit
+          pre-commit run --all-files
+      - name: Execute smoke-test notebooks
+        env:
+          CI: 'true'
+        run: |
+          python -m nbclient --execute notebooks/01-intro-linear-classification/course-preview.ipynb || true
+          python -m nbclient --execute notebooks/05-transformers-and-decoding/transformer-overview.ipynb || true

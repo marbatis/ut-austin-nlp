@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.venv/
+.envrc
+.DS_Store
+.mypy_cache/
+.pytest_cache/
+*.log
+course_index.json
+.notebook_cache/
+.cache/
