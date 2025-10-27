@@ -1,15 +1,25 @@
+from __future__ import annotations
+
 import json
 import sys
 import time
 from pathlib import Path
+from typing import Any
 from urllib.parse import parse_qs, urlparse
 
-from youtube_transcript_api import (
-    NoTranscriptFound,
-    TranscriptsDisabled,
-    YouTubeTranscriptApi,
-)
-from yt_dlp import YoutubeDL
+try:  # pragma: no cover - optional dependency
+    from youtube_transcript_api import (
+        NoTranscriptFound,
+        TranscriptsDisabled,
+        YouTubeTranscriptApi,
+    )
+except ImportError:  # pragma: no cover - optional dependency
+    NoTranscriptFound = TranscriptsDisabled = YouTubeTranscriptApi = None  # type: ignore[assignment]
+
+try:  # pragma: no cover - optional dependency
+    from yt_dlp import YoutubeDL
+except ImportError:  # pragma: no cover - optional dependency
+    YoutubeDL = None  # type: ignore[assignment]
 
 
 def vid_from_url(url: str) -> str:
@@ -21,6 +31,9 @@ def vid_from_url(url: str) -> str:
 
 
 def get_info(url: str) -> dict:
+    if YoutubeDL is None:  # pragma: no cover - defensive
+        raise RuntimeError("yt-dlp is required to fetch video metadata.")
+
     ydl_opts = {"quiet": True, "skip_download": True}
     with YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url, download=False)
@@ -37,6 +50,9 @@ def get_info(url: str) -> dict:
 
 
 def get_transcript(video_id: str):
+    if YouTubeTranscriptApi is None:  # pragma: no cover - defensive
+        raise RuntimeError("youtube-transcript-api is required to fetch transcripts.")
+
     languages = ["en", "en-US", "en-GB"]
     try:
         return YouTubeTranscriptApi.get_transcript(video_id, languages=languages)
@@ -51,16 +67,38 @@ def get_transcript(video_id: str):
             return None
 
 
-def load_index(path: str = "course_index.json") -> dict:
-    return json.loads(Path(path).read_text(encoding="utf-8"))
+def load_index(path: str | Path = "course_index.json") -> dict[str, Any]:
+    file_path = Path(path)
+
+    if not file_path.exists():
+        return {"weeks": []}
+
+    raw_text = file_path.read_text(encoding="utf-8")
+    if not raw_text.strip():
+        return {"weeks": []}
+
+    try:
+        data = json.loads(raw_text)
+    except json.JSONDecodeError as exc:  # pragma: no cover - defensive
+        raise ValueError(f"Invalid JSON in {file_path}") from exc
+
+    if not isinstance(data, dict):  # pragma: no cover - defensive
+        raise ValueError(f"Expected object at top level in {file_path}")
+
+    data.setdefault("weeks", [])
+    return data
 
 
 def main(index_path: str = "course_index.json", out_dir: str = "data") -> None:
+    index = load_index(index_path)
+
+    if not index.get("weeks"):
+        print(f"No course index found at {index_path}; skipping download.")
+        return
+
     base = Path(out_dir)
     transcripts_dir = base / "transcripts"
     transcripts_dir.mkdir(parents=True, exist_ok=True)
-
-    index = load_index(index_path)
     video_info = {}
 
     for week in index.get("weeks", []):
