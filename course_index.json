@@ -1,0 +1,2558 @@
+{
+  "source": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/materials.html",
+  "weeks": [
+    {
+      "week_title": "Week 1: Intro and Linear Classification",
+      "items": [
+        {
+          "type": "video",
+          "title": "Course Preview",
+          "url": "https://youtu.be/Mz8-LTednt4"
+        },
+        {
+          "type": "video",
+          "title": "Introduction",
+          "url": "https://youtu.be/k5p8teUNHX4"
+        },
+        {
+          "type": "video",
+          "title": "Linear Binary Classification",
+          "url": "https://youtu.be/DVxR3AwdxoA"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 2.0-2.5, 4.2-4.4.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Perceptron and logistic regression",
+          "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/perc-lr-connections.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Sentiment Analysis and Basic Feature Extraction",
+          "url": "https://youtu.be/0jSElGFUxro"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 4.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Basics of Learning, Gradient Descent",
+          "url": "https://youtu.be/_We4tlPkaj0"
+        },
+        {
+          "type": "video",
+          "title": "Perceptron",
+          "url": "https://youtu.be/tMGv5ZcuVP4"
+        },
+        {
+          "type": "video",
+          "title": "Perceptron as Minimizing Loss",
+          "url": "https://youtu.be/hhTkyP7EzGw"
+        },
+        {
+          "type": "video",
+          "title": "Logistic Regression",
+          "url": "https://youtu.be/0naHFT07ja8"
+        },
+        {
+          "type": "reading",
+          "title": "Perceptron and LR connections",
+          "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/perc-lr-connections.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Sentiment Analysis",
+          "url": "https://youtu.be/cKbnEmjxnOY"
+        },
+        {
+          "type": "reading",
+          "title": "Thumbs up? Sentiment Classification using Machine Learning Techniques",
+          "url": "https://www.aclweb.org/anthology/W02-1011/"
+        },
+        {
+          "type": "reading",
+          "title": "Baselines and Bigrams: Simple, Good Sentiment and Topic Classification",
+          "url": "https://www.aclweb.org/anthology/P12-2018/"
+        },
+        {
+          "type": "reading",
+          "title": "Convolutional Neural Networks for Sentence Classification",
+          "url": "https://www.aclweb.org/anthology/D14-1181/"
+        },
+        {
+          "type": "reading",
+          "title": "[GitHub] NLP Progress on Sentiment Analysis",
+          "url": "https://github.com/sebastianruder/NLP-progress/blob/master/english/sentiment_analysis.md"
+        },
+        {
+          "type": "video",
+          "title": "Optimization Basics",
+          "url": "https://youtu.be/65ui-GdtY0Q"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 2: Multiclass and Neural Classification",
+      "items": [
+        {
+          "type": "video",
+          "title": "Multiclass Classification",
+          "url": "https://youtu.be/My6GaGhqxdI"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 4.2",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Multiclass lecture note",
+          "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/multiclass.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Multiclass Perceptron and Logistic Regression",
+          "url": "https://youtu.be/EA627DC7k6M"
+        },
+        {
+          "type": "video",
+          "title": "Multiclass Classification Examples",
+          "url": "https://youtu.be/va2i7LXt9zI"
+        },
+        {
+          "type": "reading",
+          "title": "A large annotated corpus for learning natural language inference",
+          "url": "https://www.aclweb.org/anthology/D15-1075/"
+        },
+        {
+          "type": "reading",
+          "title": "Authorship Attribution of Micro-Messages",
+          "url": "https://www.aclweb.org/anthology/D13-1193/"
+        },
+        {
+          "type": "video",
+          "title": "Fairness in Classification",
+          "url": "https://youtu.be/N4f2-S19LME"
+        },
+        {
+          "type": "reading",
+          "title": "50 Years of Test (Un)fairness: Lessons for Machine Learning",
+          "url": "https://arxiv.org/pdf/1811.10104.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "[Article] Amazon scraps secret AI recruiting tool that showed bias against women",
+          "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G"
+        },
+        {
+          "type": "video",
+          "title": "Neural Networks",
+          "url": "https://youtu.be/DU_p-RBy5gM"
+        },
+        {
+          "type": "video",
+          "title": "Neural Network Visualization",
+          "url": "https://youtu.be/rdohzaGa8aE"
+        },
+        {
+          "type": "reading",
+          "title": "[Blog] Neural Networks, Manifolds, and Topology",
+          "url": "http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/"
+        },
+        {
+          "type": "video",
+          "title": "Feedforward Neural Networks, Backpropagation",
+          "url": "https://youtu.be/8WhPYIWyR5g"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein Chapter 3.1-3.3",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Neural Net Implementation",
+          "url": "https://youtu.be/IRZCQO18QAI"
+        },
+        {
+          "type": "video",
+          "title": "Neural Net Training, Optimization",
+          "url": "https://youtu.be/KPZb2rYS4BE"
+        },
+        {
+          "type": "reading",
+          "title": "Dropout: a simple way to prevent neural networks from overfitting",
+          "url": "https://dl.acm.org/doi/10.5555/2627435.2670313"
+        },
+        {
+          "type": "reading",
+          "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+          "url": "https://arxiv.org/abs/1502.03167"
+        },
+        {
+          "type": "reading",
+          "title": "Adam: A Method for Stochastic Optimization",
+          "url": "https://arxiv.org/abs/1412.6980"
+        },
+        {
+          "type": "reading",
+          "title": "The Marginal Value of Adaptive Gradient Methods in Machine Learning",
+          "url": "https://papers.nips.cc/paper/2017/hash/81b3833e2504647f9d794f7d7b9bf341-Abstract.html"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 3: Word Embeddings",
+      "items": [
+        {
+          "type": "video",
+          "title": "Word Embeddings",
+          "url": "https://youtu.be/8EqQROdVPyM"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 14.5",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Skip-gram",
+          "url": "https://youtu.be/hznxqCIrzSQ"
+        },
+        {
+          "type": "reading",
+          "title": "Distributed Representations of Words and Phrases and their Compositionality",
+          "url": "https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Other Word Embedding Methods",
+          "url": "https://youtu.be/gpP-depOUwg"
+        },
+        {
+          "type": "reading",
+          "title": "A Scalable Hierarchical Distributed Language Model",
+          "url": "https://papers.nips.cc/paper/2008/hash/1e056d2b0ebd5c878c550da6ac5d3724-Abstract.html"
+        },
+        {
+          "type": "reading",
+          "title": "Neural Word Embedding as Implicit Matrix Factorization",
+          "url": "https://papers.nips.cc/paper/2014/file/feab05aa91085b7a8012516bc3533958-Paper.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "GloVe: Global Vectors for Word Representation",
+          "url": "https://www.aclweb.org/anthology/D14-1162/"
+        },
+        {
+          "type": "reading",
+          "title": "Enriching Word Vectors with Subword Information",
+          "url": "https://arxiv.org/abs/1607.04606"
+        },
+        {
+          "type": "video",
+          "title": "Bias in Word Embeddings",
+          "url": "https://youtu.be/J_227g77Jqg"
+        },
+        {
+          "type": "reading",
+          "title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+          "url": "https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Black is to Criminal as Caucasian is to Police: Detecting and Removing Multiclass Bias in Word Embeddings",
+          "url": "https://www.aclweb.org/anthology/N19-1062/"
+        },
+        {
+          "type": "reading",
+          "title": "Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them",
+          "url": "https://www.aclweb.org/anthology/N19-1061/"
+        },
+        {
+          "type": "video",
+          "title": "Applying Embeddings, Deep Averaging Networks",
+          "url": "https://youtu.be/3pwwdHuH0I4"
+        },
+        {
+          "type": "reading",
+          "title": "Deep Unordered Composition Rivals Syntactic Methods for Text Classification",
+          "url": "https://www.aclweb.org/anthology/P15-1162/"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 4: Language Modeling and Self-Attention",
+      "items": [
+        {
+          "type": "video",
+          "title": "n-gram LMs",
+          "url": "https://youtu.be/J-yHbD8LYCM"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 6.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Smoothing in n-gram LMs",
+          "url": "https://youtu.be/Yfug5eIQh5w"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 6.2",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "LM Evaluation",
+          "url": "https://youtu.be/ImW4vJ5XZQc"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 6.4",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Neural Language Models",
+          "url": "https://youtu.be/59NrmwAdOWA"
+        },
+        {
+          "type": "video",
+          "title": "RNNs and their Shortcomings",
+          "url": "https://youtu.be/xvnnA04JVQo"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 6.3",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "[Blog] Understanding LSTMs",
+          "url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/"
+        },
+        {
+          "type": "video",
+          "title": "Attention",
+          "url": "https://youtu.be/q7HY7tpWWi8"
+        },
+        {
+          "type": "reading",
+          "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+          "url": "https://arxiv.org/abs/1409.0473"
+        },
+        {
+          "type": "video",
+          "title": "Self-Attention",
+          "url": "https://youtu.be/10l2NXStROU"
+        },
+        {
+          "type": "reading",
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/pdf/1706.03762.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Multi-Head Self-Attention",
+          "url": "https://youtu.be/nHXrdLMo8Uk"
+        },
+        {
+          "type": "reading",
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/pdf/1706.03762.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "[Blog] The Illustrated Transformer",
+          "url": "http://jalammar.github.io/illustrated-transformer/"
+        },
+        {
+          "type": "video",
+          "title": "Position Encodings",
+          "url": "https://youtu.be/a8sTGth7PoU"
+        },
+        {
+          "type": "reading",
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/pdf/1706.03762.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+          "url": "https://arxiv.org/abs/2108.12409"
+        },
+        {
+          "type": "reading",
+          "title": "The Impact of Positional Encoding on Length Generalization in Transformers",
+          "url": "https://arxiv.org/abs/2305.19466"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 5: Transformers and Decoding",
+      "items": [
+        {
+          "type": "video",
+          "title": "Transformer Architecture",
+          "url": "https://youtu.be/sLsUD-RcDqg"
+        },
+        {
+          "type": "reading",
+          "title": "Attention Is All You Need",
+          "url": "https://arxiv.org/pdf/1706.03762.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Using Transformers",
+          "url": "https://youtu.be/1Efx04lHa7w"
+        },
+        {
+          "type": "video",
+          "title": "Transformer Language Modeling",
+          "url": "https://youtu.be/htyspM3FrMg"
+        },
+        {
+          "type": "video",
+          "title": "Transformer Extensions",
+          "url": "https://youtu.be/DPvDL8L4Dqo"
+        },
+        {
+          "type": "reading",
+          "title": "Scaling Laws for Neural Language Models",
+          "url": "https://arxiv.org/abs/2001.08361"
+        },
+        {
+          "type": "reading",
+          "title": "Efficient Transformers: A Survey",
+          "url": "https://arxiv.org/abs/2009.06732"
+        },
+        {
+          "type": "reading",
+          "title": "Rethinking Attention with Performers",
+          "url": "https://arxiv.org/abs/2009.14794"
+        },
+        {
+          "type": "reading",
+          "title": "Longformer: The Long-Document Transformer",
+          "url": "https://arxiv.org/abs/2004.05150"
+        },
+        {
+          "type": "video",
+          "title": "Beam Search",
+          "url": "https://youtu.be/wltqDbhlcJ0"
+        },
+        {
+          "type": "video",
+          "title": "Nucleus Sampling",
+          "url": "https://youtu.be/JETxaSaj6_k"
+        },
+        {
+          "type": "reading",
+          "title": "The Curious Case of Neural Text Degeneration",
+          "url": "https://arxiv.org/abs/1904.09751"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 6: Pre-training, seq2seq LMs",
+      "items": [
+        {
+          "type": "video",
+          "title": "BERT: Masked Language Modeling",
+          "url": "https://youtu.be/dya_QNFvtiQ"
+        },
+        {
+          "type": "reading",
+          "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "url": "https://arxiv.org/pdf/1810.04805.pdf"
+        },
+        {
+          "type": "video",
+          "title": "BERT: Model and Applications",
+          "url": "https://youtu.be/g96oi4ihc_E"
+        },
+        {
+          "type": "reading",
+          "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "url": "https://arxiv.org/pdf/1810.04805.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks",
+          "url": "https://www.aclweb.org/anthology/W19-4302/"
+        },
+        {
+          "type": "reading",
+          "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+          "url": "https://arxiv.org/pdf/1804.07461.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "What Does BERT Look At? An Analysis of BERT's Attention",
+          "url": "https://arxiv.org/abs/1906.04341"
+        },
+        {
+          "type": "reading",
+          "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+          "url": "https://arxiv.org/pdf/1907.11692.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Seq2seq Models",
+          "url": "https://youtu.be/TKZkvqb-qpM"
+        },
+        {
+          "type": "video",
+          "title": "BART",
+          "url": "https://youtu.be/M9L3gk4ITec"
+        },
+        {
+          "type": "reading",
+          "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "url": "https://arxiv.org/abs/1910.13461"
+        },
+        {
+          "type": "video",
+          "title": "T5",
+          "url": "https://youtu.be/b6KFaT8mK4g"
+        },
+        {
+          "type": "reading",
+          "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "url": "https://arxiv.org/pdf/1910.10683.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "UnifiedQA: Crossing Format Boundaries With a Single QA System",
+          "url": "https://arxiv.org/abs/2005.00700"
+        },
+        {
+          "type": "video",
+          "title": "Word Piece and Byte Pair Encoding",
+          "url": "https://youtu.be/WA16JelEkkg"
+        },
+        {
+          "type": "reading",
+          "title": "Neural Machine Translation of Rare Words with Subword Units",
+          "url": "https://arxiv.org/pdf/1508.07909.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Byte Pair Encoding is Suboptimal for Language Model Pretraining",
+          "url": "https://arxiv.org/pdf/2004.03720.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Part-of-Speech Tagging",
+          "url": "https://youtu.be/Llw6qfeAWDs"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 8.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Sequence Labeling, Tagging with Classifiers",
+          "url": "https://youtu.be/yQZ0mDW-U3g"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 7.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Hidden Markov Models",
+          "url": "https://youtu.be/FeLtLLbn4qU"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 7.4",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "HMMs: Parameter Estimation",
+          "url": "https://youtu.be/dVF7LZkbl9g"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 7.4.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "HMMs: Viterbi Algorithm",
+          "url": "https://youtu.be/Ks7IrsjhqSo"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 7.3",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "HMMs for POS Tagging",
+          "url": "https://youtu.be/wijpAX_LLXo"
+        },
+        {
+          "type": "reading",
+          "title": "TnT - A Statistical Part-of-Speech Tagger",
+          "url": "https://arxiv.org/abs/cs/0003055"
+        },
+        {
+          "type": "reading",
+          "title": "Enriching the Knowledge Sources Used in a Maximum Entropy Part-of-Speech Tagger",
+          "url": "https://www.aclweb.org/anthology/W00-1308/"
+        },
+        {
+          "type": "reading",
+          "title": "Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-642-19400-9_14"
+        },
+        {
+          "type": "reading",
+          "title": "Natural Language Processing with Small Feed-Forward Networks",
+          "url": "https://www.aclweb.org/anthology/D17-1309.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Constituency Parsing",
+          "url": "https://youtu.be/zDPUKQKDaMM"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 10.1-10.2",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Probabilistic Context-Free Grammars",
+          "url": "https://youtu.be/q3dLP9YQLPA"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 10.3-10.4",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "CKY Algorithm",
+          "url": "https://youtu.be/QeDb6mSDSqs"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 10.3.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Refining Grammars",
+          "url": "https://youtu.be/f1o1_bPWzM0"
+        },
+        {
+          "type": "reading",
+          "title": "Accurate Unlexicalized Parsing",
+          "url": "https://www.aclweb.org/anthology/P03-1054/"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 10.5",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Dependencies",
+          "url": "https://youtu.be/dbDjKCc4R3E"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 11.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Finding Optimal 1-Endpoint-Crossing Trees",
+          "url": "https://www.aclweb.org/anthology/Q13-1002/"
+        },
+        {
+          "type": "video",
+          "title": "Transition-based Dependency Parsing",
+          "url": "https://youtu.be/ypoaw7lJ6Rk"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 11.3",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 9: Modern Large Language Models",
+      "items": [
+        {
+          "type": "video",
+          "title": "GPT-3",
+          "url": "https://youtu.be/jn41DLgnqek"
+        },
+        {
+          "type": "reading",
+          "title": "Language Models are Unsupervised Multitask Learners",
+          "url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Language Models are Few-Shot Learners",
+          "url": "https://arxiv.org/abs/2005.14165"
+        },
+        {
+          "type": "reading",
+          "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+          "url": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/"
+        },
+        {
+          "type": "video",
+          "title": "Zero-shot Prompting",
+          "url": "https://youtu.be/YCq6b31Jb6E"
+        },
+        {
+          "type": "reading",
+          "title": "Demystifying Prompts in Language Models via Perplexity Estimation",
+          "url": "https://arxiv.org/abs/2212.04037"
+        },
+        {
+          "type": "video",
+          "title": "Few-shot Prompting",
+          "url": "https://youtu.be/JSBjj09xJeM"
+        },
+        {
+          "type": "reading",
+          "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+          "url": "https://arxiv.org/abs/2102.09690"
+        },
+        {
+          "type": "reading",
+          "title": "Holistic Evaluation of Language Models",
+          "url": "https://arxiv.org/abs/2211.09110"
+        },
+        {
+          "type": "reading",
+          "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+          "url": "https://arxiv.org/abs/2202.12837"
+        },
+        {
+          "type": "video",
+          "title": "Understanding ICL: Induction Heads",
+          "url": "https://youtu.be/mUthsZ_Aivo"
+        },
+        {
+          "type": "reading",
+          "title": "In-context Learning and Induction Heads",
+          "url": "https://arxiv.org/abs/2209.11895"
+        },
+        {
+          "type": "video",
+          "title": "Instruction Tuning",
+          "url": "https://youtu.be/YT3VSlDjrVU"
+        },
+        {
+          "type": "reading",
+          "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+          "url": "https://arxiv.org/abs/2110.08207"
+        },
+        {
+          "type": "reading",
+          "title": "Scaling Instruction-Finetuned Language Models",
+          "url": "https://arxiv.org/abs/2210.11416"
+        },
+        {
+          "type": "video",
+          "title": "Reinforcement Learning from Human Feedback (RLHF)",
+          "url": "https://youtu.be/DwAdhx6GFh8"
+        },
+        {
+          "type": "reading",
+          "title": "Training language models to follow instructions with human feedback",
+          "url": "https://arxiv.org/abs/2203.02155"
+        },
+        {
+          "type": "reading",
+          "title": "[Website] Stanford Alpaca: An Instruction-following LLaMA Model",
+          "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+        },
+        {
+          "type": "video",
+          "title": "Factuality of LLMs",
+          "url": "https://youtu.be/bQZvmQUlqcs"
+        },
+        {
+          "type": "reading",
+          "title": "Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation",
+          "url": "https://arxiv.org/abs/2212.07981"
+        },
+        {
+          "type": "reading",
+          "title": "WiCE: Real-World Entailment for Claims in Wikipedia",
+          "url": "https://arxiv.org/abs/2303.01432"
+        },
+        {
+          "type": "reading",
+          "title": "SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
+          "url": "https://arxiv.org/abs/2111.09525"
+        },
+        {
+          "type": "reading",
+          "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+          "url": "https://arxiv.org/abs/2305.14251"
+        },
+        {
+          "type": "reading",
+          "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+          "url": "https://arxiv.org/abs/2210.08726"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 10: Explanations",
+      "items": [
+        {
+          "type": "video",
+          "title": "Explainability in NLP",
+          "url": "https://youtu.be/Nr0_xYEso-4"
+        },
+        {
+          "type": "reading",
+          "title": "The Mythos of Model Interpretability",
+          "url": "https://arxiv.org/pdf/1606.03490.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Deep Unordered Composition Rivals Syntactic Methods for Text Classification",
+          "url": "https://www.aclweb.org/anthology/P15-1162/"
+        },
+        {
+          "type": "reading",
+          "title": "Analysis Methods in Neural Language Processing: A Survey",
+          "url": "https://arxiv.org/pdf/1812.08951.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Local Explanations: Highlights",
+          "url": "https://youtu.be/ZVElc4CvHpk"
+        },
+        {
+          "type": "reading",
+          "title": "\"Why Should I Trust You?\" Explaining the Predictions of Any Classifier",
+          "url": "https://arxiv.org/pdf/1602.04938.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Axiomatic Attribution for Deep Networks",
+          "url": "https://arxiv.org/pdf/1703.01365.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Model Probing",
+          "url": "https://youtu.be/a6u6WM5wcLQ"
+        },
+        {
+          "type": "reading",
+          "title": "BERT Rediscovers the Classical NLP Pipeline",
+          "url": "https://arxiv.org/pdf/1905.05950.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "What Do You Learn From Context? Probing For Sentence Structure In Contextualized Word Represenations",
+          "url": "https://arxiv.org/pdf/1905.06316.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Annotation Artifacts",
+          "url": "https://youtu.be/RXYaMZcDIWU"
+        },
+        {
+          "type": "reading",
+          "title": "Annotation Artifacts in Natural Language Inference Data",
+          "url": "https://www.aclweb.org/anthology/N18-2017/"
+        },
+        {
+          "type": "reading",
+          "title": "Hypothesis Only Baselines in Natural Language Inference",
+          "url": "https://www.aclweb.org/anthology/S18-2023/"
+        },
+        {
+          "type": "reading",
+          "title": "Did the Model Understand the Question?",
+          "url": "https://www.aclweb.org/anthology/P18-1176/"
+        },
+        {
+          "type": "reading",
+          "title": "Swag: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference",
+          "url": "https://www.aclweb.org/anthology/D18-1009.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Text Explanations",
+          "url": "https://youtu.be/bXHM5t_ejsc"
+        },
+        {
+          "type": "reading",
+          "title": "Generating Visual Explanations",
+          "url": "https://arxiv.org/pdf/1603.08507.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "e-SNLI: Natural Language Inference with Natural Language Explanations",
+          "url": "https://arxiv.org/abs/1812.01193"
+        },
+        {
+          "type": "reading",
+          "title": "Explaining Question Answering Models through Text Generation",
+          "url": "https://arxiv.org/pdf/2004.05569.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Chain-of-thought",
+          "url": "https://youtu.be/tNGu3EqJbKc"
+        },
+        {
+          "type": "reading",
+          "title": "Program Induction by Rationale Generation : Learning to Solve and Explain Algebraic Word Problems",
+          "url": "https://arxiv.org/abs/1705.04146"
+        },
+        {
+          "type": "reading",
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "url": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "type": "reading",
+          "title": "The Unreliability of Explanations in Few-shot Prompting for Textual Reasoning",
+          "url": "https://arxiv.org/abs/2205.03401"
+        },
+        {
+          "type": "reading",
+          "title": "Large Language Models are Zero-Shot Reasoners",
+          "url": "https://arxiv.org/abs/2205.11916"
+        },
+        {
+          "type": "video",
+          "title": "Chain-of-thought: Extensions and Analysis",
+          "url": "https://youtu.be/9sFyzMywKmo"
+        },
+        {
+          "type": "reading",
+          "title": "Complementary Explanations for Effective In-Context Learning",
+          "url": "https://arxiv.org/pdf/2211.13892.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "PAL: Program-aided Language Models",
+          "url": "https://arxiv.org/abs/2211.10435"
+        },
+        {
+          "type": "reading",
+          "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+          "url": "https://arxiv.org/abs/2210.03350"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 11: Question Answering, Dialogue Systems",
+      "items": [
+        {
+          "type": "video",
+          "title": "Reading comprehension intro",
+          "url": "https://youtu.be/gnUSE0fCbso"
+        },
+        {
+          "type": "video",
+          "title": "Reading comprehension: setup and baselines",
+          "url": "https://youtu.be/JRI3RwRBnMY"
+        },
+        {
+          "type": "reading",
+          "title": "MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text",
+          "url": "https://www.aclweb.org/anthology/D13-1020.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+          "url": "https://www.aclweb.org/anthology/D16-1264/"
+        },
+        {
+          "type": "video",
+          "title": "BERT for QA",
+          "url": "https://youtu.be/F8hWZ4xaVkA"
+        },
+        {
+          "type": "video",
+          "title": "Problems with Reading Comprehension",
+          "url": "https://youtu.be/tCvAHmrxPvY"
+        },
+        {
+          "type": "reading",
+          "title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+          "url": "https://www.aclweb.org/anthology/D17-1215/"
+        },
+        {
+          "type": "video",
+          "title": "Open-domain QA",
+          "url": "https://youtu.be/P-j_zeS0Pa8"
+        },
+        {
+          "type": "reading",
+          "title": "Reading Wikipedia to Answer Open-Domain Questions",
+          "url": "https://arxiv.org/abs/1704.00051"
+        },
+        {
+          "type": "reading",
+          "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+          "url": "https://www.aclweb.org/anthology/P19-1612.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "[Website] Natural Questions",
+          "url": "https://ai.google.com/research/NaturalQuestions"
+        },
+        {
+          "type": "reading",
+          "title": "retrieval-augmented generation",
+          "url": "https://arxiv.org/pdf/2005.11401.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "WebGPT",
+          "url": "https://arxiv.org/abs/2112.09332"
+        },
+        {
+          "type": "video",
+          "title": "Multi-hop QA",
+          "url": "https://youtu.be/jpRwa2iE_z8"
+        },
+        {
+          "type": "reading",
+          "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+          "url": "https://arxiv.org/abs/1809.09600"
+        },
+        {
+          "type": "reading",
+          "title": "Understanding Dataset Design Choices for Multi-hop Reasoning",
+          "url": "https://www.aclweb.org/anthology/N19-1405/"
+        },
+        {
+          "type": "reading",
+          "title": "Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering",
+          "url": "https://openreview.net/forum?id=SJgVHkrYDH"
+        },
+        {
+          "type": "reading",
+          "title": "QAMPARI",
+          "url": "https://arxiv.org/abs/2205.12665"
+        },
+        {
+          "type": "video",
+          "title": "Dialogue: Chatbots",
+          "url": "https://youtu.be/vAZ7VlLXReE"
+        },
+        {
+          "type": "video",
+          "title": "Task-Oriented Dialogue",
+          "url": "https://youtu.be/JXfAkX7kvnM"
+        },
+        {
+          "type": "reading",
+          "title": "Wizards of Wikipedia: Knowledge-Powered Conversational Agents",
+          "url": "https://arxiv.org/pdf/1811.01241.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Task-Oriented Dialogue as Dataflow Synthesis",
+          "url": "https://arxiv.org/abs/2009.11423"
+        },
+        {
+          "type": "video",
+          "title": "Neural Chatbots",
+          "url": "https://youtu.be/Hc7P3QukmJk"
+        },
+        {
+          "type": "reading",
+          "title": "A Neural Network Approach to Context-Sensitive Generation of Conversational Responses",
+          "url": "https://arxiv.org/abs/1506.06714"
+        },
+        {
+          "type": "reading",
+          "title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+          "url": "https://arxiv.org/abs/1510.03055"
+        },
+        {
+          "type": "reading",
+          "title": "Recipes for building an open-domain chatbot",
+          "url": "https://arxiv.org/pdf/2004.13637.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Kurt Shuster et al.",
+          "url": "https://arxiv.org/abs/2208.03188"
+        },
+        {
+          "type": "reading",
+          "title": "character.ai",
+          "url": "https://character.ai"
+        }
+      ]
+    },
+    {
+      "week_title": "Week 12: Machine Translation, Summarization",
+      "items": [
+        {
+          "type": "video",
+          "title": "Machine Translation Intro",
+          "url": "https://youtu.be/9KAZ4-gKj9g"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 18.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "MT: Framework and Evaluation",
+          "url": "https://youtu.be/Oup0DEYJXEQ"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 18.1",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "MT: Word alignment",
+          "url": "https://youtu.be/dzOuPhBmFtE"
+        },
+        {
+          "type": "video",
+          "title": "MT: IBM Models",
+          "url": "https://youtu.be/mbtk3VCG_2A"
+        },
+        {
+          "type": "reading",
+          "title": "HMM-Based Word Alignment in Statistical Translation",
+          "url": "https://www.aclweb.org/anthology/C96-2141.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Phrase-based Machine Translation",
+          "url": "https://youtu.be/0k8b5jGk-h4"
+        },
+        {
+          "type": "reading",
+          "title": "Pharaoh: A Beam Search Decoder for Phrase-Based Statistical Machine Translation Models",
+          "url": "http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Minimum Error Rate Training in Statistical Machine Translation",
+          "url": "https://www.aclweb.org/anthology/P03-1021/"
+        },
+        {
+          "type": "reading",
+          "title": "Eisenstein 18.4",
+          "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Neural and Pre-Trained Machine Translation",
+          "url": "https://youtu.be/bcP4b_4HQ8A"
+        },
+        {
+          "type": "reading",
+          "title": "Revisiting Low-Resource Neural Machine Translation: A Case Study",
+          "url": "https://arxiv.org/abs/1905.11901"
+        },
+        {
+          "type": "reading",
+          "title": "In Neural Machine Translation, What Does Transfer Learning Transfer?",
+          "url": "https://aclanthology.org/2020.acl-main.688/"
+        },
+        {
+          "type": "reading",
+          "title": "Multilingual Denoising Pre-training for Neural Machine Translation",
+          "url": "https://arxiv.org/abs/2001.08210"
+        },
+        {
+          "type": "reading",
+          "title": "Large Language Models Are State-of-the-Art Evaluators of Translation Quality",
+          "url": "https://arxiv.org/abs/2302.14520"
+        },
+        {
+          "type": "video",
+          "title": "Summarization Intro",
+          "url": "https://youtu.be/lBDI1CBNe_U"
+        },
+        {
+          "type": "video",
+          "title": "Extractive Summarization",
+          "url": "https://youtu.be/QWt2E3m00kA"
+        },
+        {
+          "type": "reading",
+          "title": "The use of MMR, diversity-based reranking for reordering documents and producing summaries",
+          "url": "https://dl.acm.org/doi/10.1145/290941.291025"
+        },
+        {
+          "type": "reading",
+          "title": "LexRank: Graph-based Lexical Centrality as Salience in Text Summarization",
+          "url": "https://arxiv.org/abs/1109.2128"
+        },
+        {
+          "type": "reading",
+          "title": "A Scalable Global Model for Summarization",
+          "url": "https://www.aclweb.org/anthology/W09-1802/"
+        },
+        {
+          "type": "reading",
+          "title": "Revisiting the Centroid-based Method: A Strong Baseline for Multi-Document Summarization",
+          "url": "https://www.aclweb.org/anthology/W17-4511/"
+        },
+        {
+          "type": "video",
+          "title": "Pre-trained Summarization and Factuality",
+          "url": "https://youtu.be/feLTtTilycY"
+        },
+        {
+          "type": "reading",
+          "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+          "url": "https://www.aclweb.org/anthology/2020.acl-main.703/"
+        },
+        {
+          "type": "reading",
+          "title": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+          "url": "https://arxiv.org/abs/1912.08777"
+        },
+        {
+          "type": "reading",
+          "title": "Evaluating Factuality in Generation with Dependency-level Entailment",
+          "url": "https://arxiv.org/pdf/2010.05478.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Asking and Answering Questions to Evaluate the Factual Consistency of Summaries",
+          "url": "https://arxiv.org/abs/2004.04228"
+        },
+        {
+          "type": "reading",
+          "title": "News Summarization and Evaluation in the Era of GPT-3",
+          "url": "https://arxiv.org/abs/2209.12356"
+        },
+        {
+          "type": "video",
+          "title": "Morphology",
+          "url": "https://youtu.be/ettP9Ayrho8"
+        },
+        {
+          "type": "video",
+          "title": "Cross-lingual Tagging and Parsing",
+          "url": "https://youtu.be/rTSCLfxdxrI"
+        },
+        {
+          "type": "reading",
+          "title": "Unsupervised Part-of-Speech Tagging with Bilingual Graph-Based Projections",
+          "url": "https://www.aclweb.org/anthology/P11-1061/"
+        },
+        {
+          "type": "reading",
+          "title": "Multi-Source Transfer of Delexicalized Dependency Parsers",
+          "url": "https://www.aclweb.org/anthology/D11-1006/"
+        },
+        {
+          "type": "video",
+          "title": "Cross-lingual Pre-training",
+          "url": "https://youtu.be/KNBRb8sjzOA"
+        },
+        {
+          "type": "reading",
+          "title": "Massively Multilingual Word Embeddings",
+          "url": "https://arxiv.org/pdf/1602.01925.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
+          "url": "https://www.aclweb.org/anthology/Q19-1038.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "How multilingual is Multilingual BERT?",
+          "url": "https://www.aclweb.org/anthology/P19-1493.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Language Grounding",
+          "url": "https://youtu.be/ayNoMmoXnd8"
+        },
+        {
+          "type": "reading",
+          "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+          "url": "https://aclanthology.org/2020.acl-main.463/"
+        },
+        {
+          "type": "reading",
+          "title": "Provable Limitations of Acquiring Meaning from Ungrounded Form: What Will Future Language Models Understand?",
+          "url": "https://arxiv.org/abs/2104.10809"
+        },
+        {
+          "type": "reading",
+          "title": "Entailment Semantics Can Be Extracted from an Ideal Language Model",
+          "url": "https://arxiv.org/abs/2209.12407"
+        },
+        {
+          "type": "reading",
+          "title": "Experience Grounds Language",
+          "url": "https://arxiv.org/abs/2004.10151"
+        },
+        {
+          "type": "video",
+          "title": "Language and Vision",
+          "url": "https://www.youtube.com/watch?v=pkdV-iddZxk"
+        },
+        {
+          "type": "reading",
+          "title": "VQA: Visual Question Answering",
+          "url": "https://arxiv.org/abs/1505.00468"
+        },
+        {
+          "type": "reading",
+          "title": "Learning Transferable Visual Models From Natural Language Supervision",
+          "url": "https://arxiv.org/abs/2103.00020"
+        },
+        {
+          "type": "video",
+          "title": "Ethics: Bias",
+          "url": "https://youtu.be/tTkAjNkXvH4"
+        },
+        {
+          "type": "reading",
+          "title": "The Social Impact of Natural Language Processing",
+          "url": "https://aclanthology.org/P16-2096.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints",
+          "url": "https://arxiv.org/pdf/1707.09457.pdf"
+        },
+        {
+          "type": "video",
+          "title": "Ethics: Exclusion",
+          "url": "https://youtu.be/0haVbW2ouzw"
+        },
+        {
+          "type": "reading",
+          "title": "GeoMLAMA: Geo-Diverse Commonsense Probing on Multilingual Pre-Trained Language Models",
+          "url": "https://arxiv.org/abs/2205.12247"
+        },
+        {
+          "type": "reading",
+          "title": "Visually Grounded Reasoning across Languages and Cultures",
+          "url": "https://arxiv.org/abs/2109.13238"
+        },
+        {
+          "type": "video",
+          "title": "Ethics: Dangers of Automation",
+          "url": "https://youtu.be/2PSzHb08Xm4"
+        },
+        {
+          "type": "reading",
+          "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+          "url": "https://dl.acm.org/doi/10.1145/3442188.3445922"
+        },
+        {
+          "type": "reading",
+          "title": "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models",
+          "url": "https://arxiv.org/abs/2009.11462"
+        },
+        {
+          "type": "video",
+          "title": "Ethics: Unethical Use and Paths Forward",
+          "url": "https://youtu.be/Hp8qfbsp57M"
+        },
+        {
+          "type": "reading",
+          "title": "Datasheets for Datasets",
+          "url": "https://arxiv.org/pdf/1803.09010.pdf"
+        },
+        {
+          "type": "reading",
+          "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3351095.3372873"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "title": "Assignment 1: Linear Sentiment Classification",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a1.pdf"
+    },
+    {
+      "title": "[code and dataset download]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a1-distrib.tgz"
+    },
+    {
+      "title": "Assignment 2: Feedforward Neural Networks, Word Embeddings, and Generalization",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a2.pdf"
+    },
+    {
+      "title": "[code and dataset download]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a2-distrib.tgz"
+    },
+    {
+      "title": "Assignment 3: Transformer Language Modeling",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a3.pdf"
+    },
+    {
+      "title": "[code and dataset download]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a3-distrib.tgz"
+    },
+    {
+      "title": "[NEW 2025 VERSION] Assignment 4: Factuality and ChatGPT",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a4.pdf"
+    },
+    {
+      "title": "[code and dataset download]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/a4-distrib.zip"
+    },
+    {
+      "title": "Final Project: Dataset Artifacts",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/fp.pdf"
+    },
+    {
+      "title": "[code and dataset download]",
+      "url": "https://github.com/gregdurrett/fp-dataset-artifacts"
+    },
+    {
+      "title": "[example 1]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/project-ex-1.pdf"
+    },
+    {
+      "title": "[example 2]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/project-ex-2.pdf"
+    },
+    {
+      "title": "[peer assessment instructions]",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/peer-assessment.pdf"
+    },
+    {
+      "title": "Midterm topics",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/fa24-midterm-topics.pdf"
+    },
+    {
+      "title": "2023 midterm",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/fa23-cs388-midterm.pdf"
+    },
+    {
+      "title": "2023 solutions",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/fa23-cs388-midterm-solns.pdf"
+    },
+    {
+      "title": "2022 midterm",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/fa22-cs388-midterm.pdf"
+    },
+    {
+      "title": "2022 solutions",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/fa22-cs388-midterm-solns.pdf"
+    },
+    {
+      "title": "YouTube playlist containing all videos",
+      "url": "https://www.youtube.com/playlist?list=PLofp2YXfp7TZZ5c7HEChs0_wfEfewLDs7"
+    },
+    {
+      "title": "Download the slides and handwritten notes here (88MB tgz)",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/slides-notes.tgz"
+    },
+    {
+      "title": "Course Preview",
+      "url": "https://youtu.be/Mz8-LTednt4"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://youtu.be/k5p8teUNHX4"
+    },
+    {
+      "title": "Linear Binary Classification",
+      "url": "https://youtu.be/DVxR3AwdxoA"
+    },
+    {
+      "title": "Eisenstein 2.0-2.5, 4.2-4.4.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Perceptron and logistic regression",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/perc-lr-connections.pdf"
+    },
+    {
+      "title": "Sentiment Analysis and Basic Feature Extraction",
+      "url": "https://youtu.be/0jSElGFUxro"
+    },
+    {
+      "title": "Eisenstein 4.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Basics of Learning, Gradient Descent",
+      "url": "https://youtu.be/_We4tlPkaj0"
+    },
+    {
+      "title": "Perceptron",
+      "url": "https://youtu.be/tMGv5ZcuVP4"
+    },
+    {
+      "title": "Perceptron as Minimizing Loss",
+      "url": "https://youtu.be/hhTkyP7EzGw"
+    },
+    {
+      "title": "Logistic Regression",
+      "url": "https://youtu.be/0naHFT07ja8"
+    },
+    {
+      "title": "Perceptron and LR connections",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/perc-lr-connections.pdf"
+    },
+    {
+      "title": "Sentiment Analysis",
+      "url": "https://youtu.be/cKbnEmjxnOY"
+    },
+    {
+      "title": "Thumbs up? Sentiment Classification using Machine Learning Techniques",
+      "url": "https://www.aclweb.org/anthology/W02-1011/"
+    },
+    {
+      "title": "Baselines and Bigrams: Simple, Good Sentiment and Topic Classification",
+      "url": "https://www.aclweb.org/anthology/P12-2018/"
+    },
+    {
+      "title": "Convolutional Neural Networks for Sentence Classification",
+      "url": "https://www.aclweb.org/anthology/D14-1181/"
+    },
+    {
+      "title": "[GitHub] NLP Progress on Sentiment Analysis",
+      "url": "https://github.com/sebastianruder/NLP-progress/blob/master/english/sentiment_analysis.md"
+    },
+    {
+      "title": "Optimization Basics",
+      "url": "https://youtu.be/65ui-GdtY0Q"
+    },
+    {
+      "title": "Multiclass Classification",
+      "url": "https://youtu.be/My6GaGhqxdI"
+    },
+    {
+      "title": "Eisenstein 4.2",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Multiclass lecture note",
+      "url": "https://www.cs.utexas.edu/~gdurrett/courses/online-course/multiclass.pdf"
+    },
+    {
+      "title": "Multiclass Perceptron and Logistic Regression",
+      "url": "https://youtu.be/EA627DC7k6M"
+    },
+    {
+      "title": "Multiclass Classification Examples",
+      "url": "https://youtu.be/va2i7LXt9zI"
+    },
+    {
+      "title": "A large annotated corpus for learning natural language inference",
+      "url": "https://www.aclweb.org/anthology/D15-1075/"
+    },
+    {
+      "title": "Authorship Attribution of Micro-Messages",
+      "url": "https://www.aclweb.org/anthology/D13-1193/"
+    },
+    {
+      "title": "Fairness in Classification",
+      "url": "https://youtu.be/N4f2-S19LME"
+    },
+    {
+      "title": "50 Years of Test (Un)fairness: Lessons for Machine Learning",
+      "url": "https://arxiv.org/pdf/1811.10104.pdf"
+    },
+    {
+      "title": "[Article] Amazon scraps secret AI recruiting tool that showed bias against women",
+      "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G"
+    },
+    {
+      "title": "Neural Networks",
+      "url": "https://youtu.be/DU_p-RBy5gM"
+    },
+    {
+      "title": "Neural Network Visualization",
+      "url": "https://youtu.be/rdohzaGa8aE"
+    },
+    {
+      "title": "[Blog] Neural Networks, Manifolds, and Topology",
+      "url": "http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/"
+    },
+    {
+      "title": "Feedforward Neural Networks, Backpropagation",
+      "url": "https://youtu.be/8WhPYIWyR5g"
+    },
+    {
+      "title": "Eisenstein Chapter 3.1-3.3",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Neural Net Implementation",
+      "url": "https://youtu.be/IRZCQO18QAI"
+    },
+    {
+      "title": "Neural Net Training, Optimization",
+      "url": "https://youtu.be/KPZb2rYS4BE"
+    },
+    {
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "url": "https://dl.acm.org/doi/10.5555/2627435.2670313"
+    },
+    {
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "url": "https://arxiv.org/abs/1502.03167"
+    },
+    {
+      "title": "Adam: A Method for Stochastic Optimization",
+      "url": "https://arxiv.org/abs/1412.6980"
+    },
+    {
+      "title": "The Marginal Value of Adaptive Gradient Methods in Machine Learning",
+      "url": "https://papers.nips.cc/paper/2017/hash/81b3833e2504647f9d794f7d7b9bf341-Abstract.html"
+    },
+    {
+      "title": "Word Embeddings",
+      "url": "https://youtu.be/8EqQROdVPyM"
+    },
+    {
+      "title": "Eisenstein 14.5",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Skip-gram",
+      "url": "https://youtu.be/hznxqCIrzSQ"
+    },
+    {
+      "title": "Distributed Representations of Words and Phrases and their Compositionality",
+      "url": "https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf"
+    },
+    {
+      "title": "Other Word Embedding Methods",
+      "url": "https://youtu.be/gpP-depOUwg"
+    },
+    {
+      "title": "A Scalable Hierarchical Distributed Language Model",
+      "url": "https://papers.nips.cc/paper/2008/hash/1e056d2b0ebd5c878c550da6ac5d3724-Abstract.html"
+    },
+    {
+      "title": "Neural Word Embedding as Implicit Matrix Factorization",
+      "url": "https://papers.nips.cc/paper/2014/file/feab05aa91085b7a8012516bc3533958-Paper.pdf"
+    },
+    {
+      "title": "GloVe: Global Vectors for Word Representation",
+      "url": "https://www.aclweb.org/anthology/D14-1162/"
+    },
+    {
+      "title": "Enriching Word Vectors with Subword Information",
+      "url": "https://arxiv.org/abs/1607.04606"
+    },
+    {
+      "title": "Bias in Word Embeddings",
+      "url": "https://youtu.be/J_227g77Jqg"
+    },
+    {
+      "title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+      "url": "https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf"
+    },
+    {
+      "title": "Black is to Criminal as Caucasian is to Police: Detecting and Removing Multiclass Bias in Word Embeddings",
+      "url": "https://www.aclweb.org/anthology/N19-1062/"
+    },
+    {
+      "title": "Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them",
+      "url": "https://www.aclweb.org/anthology/N19-1061/"
+    },
+    {
+      "title": "Applying Embeddings, Deep Averaging Networks",
+      "url": "https://youtu.be/3pwwdHuH0I4"
+    },
+    {
+      "title": "Deep Unordered Composition Rivals Syntactic Methods for Text Classification",
+      "url": "https://www.aclweb.org/anthology/P15-1162/"
+    },
+    {
+      "title": "n-gram LMs",
+      "url": "https://youtu.be/J-yHbD8LYCM"
+    },
+    {
+      "title": "Eisenstein 6.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Smoothing in n-gram LMs",
+      "url": "https://youtu.be/Yfug5eIQh5w"
+    },
+    {
+      "title": "Eisenstein 6.2",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "LM Evaluation",
+      "url": "https://youtu.be/ImW4vJ5XZQc"
+    },
+    {
+      "title": "Eisenstein 6.4",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Neural Language Models",
+      "url": "https://youtu.be/59NrmwAdOWA"
+    },
+    {
+      "title": "RNNs and their Shortcomings",
+      "url": "https://youtu.be/xvnnA04JVQo"
+    },
+    {
+      "title": "Eisenstein 6.3",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "[Blog] Understanding LSTMs",
+      "url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/"
+    },
+    {
+      "title": "Attention",
+      "url": "https://youtu.be/q7HY7tpWWi8"
+    },
+    {
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+      "url": "https://arxiv.org/abs/1409.0473"
+    },
+    {
+      "title": "Self-Attention",
+      "url": "https://youtu.be/10l2NXStROU"
+    },
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/pdf/1706.03762.pdf"
+    },
+    {
+      "title": "Multi-Head Self-Attention",
+      "url": "https://youtu.be/nHXrdLMo8Uk"
+    },
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/pdf/1706.03762.pdf"
+    },
+    {
+      "title": "[Blog] The Illustrated Transformer",
+      "url": "http://jalammar.github.io/illustrated-transformer/"
+    },
+    {
+      "title": "Position Encodings",
+      "url": "https://youtu.be/a8sTGth7PoU"
+    },
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/pdf/1706.03762.pdf"
+    },
+    {
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "url": "https://arxiv.org/abs/2108.12409"
+    },
+    {
+      "title": "The Impact of Positional Encoding on Length Generalization in Transformers",
+      "url": "https://arxiv.org/abs/2305.19466"
+    },
+    {
+      "title": "Transformer Architecture",
+      "url": "https://youtu.be/sLsUD-RcDqg"
+    },
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/pdf/1706.03762.pdf"
+    },
+    {
+      "title": "Using Transformers",
+      "url": "https://youtu.be/1Efx04lHa7w"
+    },
+    {
+      "title": "Transformer Language Modeling",
+      "url": "https://youtu.be/htyspM3FrMg"
+    },
+    {
+      "title": "Transformer Extensions",
+      "url": "https://youtu.be/DPvDL8L4Dqo"
+    },
+    {
+      "title": "Scaling Laws for Neural Language Models",
+      "url": "https://arxiv.org/abs/2001.08361"
+    },
+    {
+      "title": "Efficient Transformers: A Survey",
+      "url": "https://arxiv.org/abs/2009.06732"
+    },
+    {
+      "title": "Rethinking Attention with Performers",
+      "url": "https://arxiv.org/abs/2009.14794"
+    },
+    {
+      "title": "Longformer: The Long-Document Transformer",
+      "url": "https://arxiv.org/abs/2004.05150"
+    },
+    {
+      "title": "Beam Search",
+      "url": "https://youtu.be/wltqDbhlcJ0"
+    },
+    {
+      "title": "Nucleus Sampling",
+      "url": "https://youtu.be/JETxaSaj6_k"
+    },
+    {
+      "title": "The Curious Case of Neural Text Degeneration",
+      "url": "https://arxiv.org/abs/1904.09751"
+    },
+    {
+      "title": "BERT: Masked Language Modeling",
+      "url": "https://youtu.be/dya_QNFvtiQ"
+    },
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://arxiv.org/pdf/1810.04805.pdf"
+    },
+    {
+      "title": "BERT: Model and Applications",
+      "url": "https://youtu.be/g96oi4ihc_E"
+    },
+    {
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://arxiv.org/pdf/1810.04805.pdf"
+    },
+    {
+      "title": "To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks",
+      "url": "https://www.aclweb.org/anthology/W19-4302/"
+    },
+    {
+      "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+      "url": "https://arxiv.org/pdf/1804.07461.pdf"
+    },
+    {
+      "title": "What Does BERT Look At? An Analysis of BERT's Attention",
+      "url": "https://arxiv.org/abs/1906.04341"
+    },
+    {
+      "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "url": "https://arxiv.org/pdf/1907.11692.pdf"
+    },
+    {
+      "title": "Seq2seq Models",
+      "url": "https://youtu.be/TKZkvqb-qpM"
+    },
+    {
+      "title": "BART",
+      "url": "https://youtu.be/M9L3gk4ITec"
+    },
+    {
+      "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+      "url": "https://arxiv.org/abs/1910.13461"
+    },
+    {
+      "title": "T5",
+      "url": "https://youtu.be/b6KFaT8mK4g"
+    },
+    {
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "url": "https://arxiv.org/pdf/1910.10683.pdf"
+    },
+    {
+      "title": "UnifiedQA: Crossing Format Boundaries With a Single QA System",
+      "url": "https://arxiv.org/abs/2005.00700"
+    },
+    {
+      "title": "Word Piece and Byte Pair Encoding",
+      "url": "https://youtu.be/WA16JelEkkg"
+    },
+    {
+      "title": "Neural Machine Translation of Rare Words with Subword Units",
+      "url": "https://arxiv.org/pdf/1508.07909.pdf"
+    },
+    {
+      "title": "Byte Pair Encoding is Suboptimal for Language Model Pretraining",
+      "url": "https://arxiv.org/pdf/2004.03720.pdf"
+    },
+    {
+      "title": "Part-of-Speech Tagging",
+      "url": "https://youtu.be/Llw6qfeAWDs"
+    },
+    {
+      "title": "Eisenstein 8.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Sequence Labeling, Tagging with Classifiers",
+      "url": "https://youtu.be/yQZ0mDW-U3g"
+    },
+    {
+      "title": "Eisenstein 7.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Hidden Markov Models",
+      "url": "https://youtu.be/FeLtLLbn4qU"
+    },
+    {
+      "title": "Eisenstein 7.4",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "HMMs: Parameter Estimation",
+      "url": "https://youtu.be/dVF7LZkbl9g"
+    },
+    {
+      "title": "Eisenstein 7.4.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "HMMs: Viterbi Algorithm",
+      "url": "https://youtu.be/Ks7IrsjhqSo"
+    },
+    {
+      "title": "Eisenstein 7.3",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "HMMs for POS Tagging",
+      "url": "https://youtu.be/wijpAX_LLXo"
+    },
+    {
+      "title": "TnT - A Statistical Part-of-Speech Tagger",
+      "url": "https://arxiv.org/abs/cs/0003055"
+    },
+    {
+      "title": "Enriching the Knowledge Sources Used in a Maximum Entropy Part-of-Speech Tagger",
+      "url": "https://www.aclweb.org/anthology/W00-1308/"
+    },
+    {
+      "title": "Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-19400-9_14"
+    },
+    {
+      "title": "Natural Language Processing with Small Feed-Forward Networks",
+      "url": "https://www.aclweb.org/anthology/D17-1309.pdf"
+    },
+    {
+      "title": "Constituency Parsing",
+      "url": "https://youtu.be/zDPUKQKDaMM"
+    },
+    {
+      "title": "Eisenstein 10.1-10.2",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Probabilistic Context-Free Grammars",
+      "url": "https://youtu.be/q3dLP9YQLPA"
+    },
+    {
+      "title": "Eisenstein 10.3-10.4",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "CKY Algorithm",
+      "url": "https://youtu.be/QeDb6mSDSqs"
+    },
+    {
+      "title": "Eisenstein 10.3.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Refining Grammars",
+      "url": "https://youtu.be/f1o1_bPWzM0"
+    },
+    {
+      "title": "Accurate Unlexicalized Parsing",
+      "url": "https://www.aclweb.org/anthology/P03-1054/"
+    },
+    {
+      "title": "Eisenstein 10.5",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Dependencies",
+      "url": "https://youtu.be/dbDjKCc4R3E"
+    },
+    {
+      "title": "Eisenstein 11.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Finding Optimal 1-Endpoint-Crossing Trees",
+      "url": "https://www.aclweb.org/anthology/Q13-1002/"
+    },
+    {
+      "title": "Transition-based Dependency Parsing",
+      "url": "https://youtu.be/ypoaw7lJ6Rk"
+    },
+    {
+      "title": "Eisenstein 11.3",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "GPT-3",
+      "url": "https://youtu.be/jn41DLgnqek"
+    },
+    {
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+    },
+    {
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "url": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/"
+    },
+    {
+      "title": "Zero-shot Prompting",
+      "url": "https://youtu.be/YCq6b31Jb6E"
+    },
+    {
+      "title": "Demystifying Prompts in Language Models via Perplexity Estimation",
+      "url": "https://arxiv.org/abs/2212.04037"
+    },
+    {
+      "title": "Few-shot Prompting",
+      "url": "https://youtu.be/JSBjj09xJeM"
+    },
+    {
+      "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+      "url": "https://arxiv.org/abs/2102.09690"
+    },
+    {
+      "title": "Holistic Evaluation of Language Models",
+      "url": "https://arxiv.org/abs/2211.09110"
+    },
+    {
+      "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+      "url": "https://arxiv.org/abs/2202.12837"
+    },
+    {
+      "title": "Understanding ICL: Induction Heads",
+      "url": "https://youtu.be/mUthsZ_Aivo"
+    },
+    {
+      "title": "In-context Learning and Induction Heads",
+      "url": "https://arxiv.org/abs/2209.11895"
+    },
+    {
+      "title": "Instruction Tuning",
+      "url": "https://youtu.be/YT3VSlDjrVU"
+    },
+    {
+      "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+      "url": "https://arxiv.org/abs/2110.08207"
+    },
+    {
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "url": "https://arxiv.org/abs/2210.11416"
+    },
+    {
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "url": "https://youtu.be/DwAdhx6GFh8"
+    },
+    {
+      "title": "Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "title": "[Website] Stanford Alpaca: An Instruction-following LLaMA Model",
+      "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+    },
+    {
+      "title": "Factuality of LLMs",
+      "url": "https://youtu.be/bQZvmQUlqcs"
+    },
+    {
+      "title": "Revisiting the Gold Standard: Grounding Summarization Evaluation with Robust Human Evaluation",
+      "url": "https://arxiv.org/abs/2212.07981"
+    },
+    {
+      "title": "WiCE: Real-World Entailment for Claims in Wikipedia",
+      "url": "https://arxiv.org/abs/2303.01432"
+    },
+    {
+      "title": "SummaC: Re-Visiting NLI-based Models for Inconsistency Detection in Summarization",
+      "url": "https://arxiv.org/abs/2111.09525"
+    },
+    {
+      "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+      "url": "https://arxiv.org/abs/2305.14251"
+    },
+    {
+      "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+      "url": "https://arxiv.org/abs/2210.08726"
+    },
+    {
+      "title": "Explainability in NLP",
+      "url": "https://youtu.be/Nr0_xYEso-4"
+    },
+    {
+      "title": "The Mythos of Model Interpretability",
+      "url": "https://arxiv.org/pdf/1606.03490.pdf"
+    },
+    {
+      "title": "Deep Unordered Composition Rivals Syntactic Methods for Text Classification",
+      "url": "https://www.aclweb.org/anthology/P15-1162/"
+    },
+    {
+      "title": "Analysis Methods in Neural Language Processing: A Survey",
+      "url": "https://arxiv.org/pdf/1812.08951.pdf"
+    },
+    {
+      "title": "Local Explanations: Highlights",
+      "url": "https://youtu.be/ZVElc4CvHpk"
+    },
+    {
+      "title": "\"Why Should I Trust You?\" Explaining the Predictions of Any Classifier",
+      "url": "https://arxiv.org/pdf/1602.04938.pdf"
+    },
+    {
+      "title": "Axiomatic Attribution for Deep Networks",
+      "url": "https://arxiv.org/pdf/1703.01365.pdf"
+    },
+    {
+      "title": "Model Probing",
+      "url": "https://youtu.be/a6u6WM5wcLQ"
+    },
+    {
+      "title": "BERT Rediscovers the Classical NLP Pipeline",
+      "url": "https://arxiv.org/pdf/1905.05950.pdf"
+    },
+    {
+      "title": "What Do You Learn From Context? Probing For Sentence Structure In Contextualized Word Represenations",
+      "url": "https://arxiv.org/pdf/1905.06316.pdf"
+    },
+    {
+      "title": "Annotation Artifacts",
+      "url": "https://youtu.be/RXYaMZcDIWU"
+    },
+    {
+      "title": "Annotation Artifacts in Natural Language Inference Data",
+      "url": "https://www.aclweb.org/anthology/N18-2017/"
+    },
+    {
+      "title": "Hypothesis Only Baselines in Natural Language Inference",
+      "url": "https://www.aclweb.org/anthology/S18-2023/"
+    },
+    {
+      "title": "Did the Model Understand the Question?",
+      "url": "https://www.aclweb.org/anthology/P18-1176/"
+    },
+    {
+      "title": "Swag: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference",
+      "url": "https://www.aclweb.org/anthology/D18-1009.pdf"
+    },
+    {
+      "title": "Text Explanations",
+      "url": "https://youtu.be/bXHM5t_ejsc"
+    },
+    {
+      "title": "Generating Visual Explanations",
+      "url": "https://arxiv.org/pdf/1603.08507.pdf"
+    },
+    {
+      "title": "e-SNLI: Natural Language Inference with Natural Language Explanations",
+      "url": "https://arxiv.org/abs/1812.01193"
+    },
+    {
+      "title": "Explaining Question Answering Models through Text Generation",
+      "url": "https://arxiv.org/pdf/2004.05569.pdf"
+    },
+    {
+      "title": "Chain-of-thought",
+      "url": "https://youtu.be/tNGu3EqJbKc"
+    },
+    {
+      "title": "Program Induction by Rationale Generation : Learning to Solve and Explain Algebraic Word Problems",
+      "url": "https://arxiv.org/abs/1705.04146"
+    },
+    {
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2201.11903"
+    },
+    {
+      "title": "The Unreliability of Explanations in Few-shot Prompting for Textual Reasoning",
+      "url": "https://arxiv.org/abs/2205.03401"
+    },
+    {
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "url": "https://arxiv.org/abs/2205.11916"
+    },
+    {
+      "title": "Chain-of-thought: Extensions and Analysis",
+      "url": "https://youtu.be/9sFyzMywKmo"
+    },
+    {
+      "title": "Complementary Explanations for Effective In-Context Learning",
+      "url": "https://arxiv.org/pdf/2211.13892.pdf"
+    },
+    {
+      "title": "PAL: Program-aided Language Models",
+      "url": "https://arxiv.org/abs/2211.10435"
+    },
+    {
+      "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+      "url": "https://arxiv.org/abs/2210.03350"
+    },
+    {
+      "title": "Reading comprehension intro",
+      "url": "https://youtu.be/gnUSE0fCbso"
+    },
+    {
+      "title": "Reading comprehension: setup and baselines",
+      "url": "https://youtu.be/JRI3RwRBnMY"
+    },
+    {
+      "title": "MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text",
+      "url": "https://www.aclweb.org/anthology/D13-1020.pdf"
+    },
+    {
+      "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
+      "url": "https://www.aclweb.org/anthology/D16-1264/"
+    },
+    {
+      "title": "BERT for QA",
+      "url": "https://youtu.be/F8hWZ4xaVkA"
+    },
+    {
+      "title": "Problems with Reading Comprehension",
+      "url": "https://youtu.be/tCvAHmrxPvY"
+    },
+    {
+      "title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
+      "url": "https://www.aclweb.org/anthology/D17-1215/"
+    },
+    {
+      "title": "Open-domain QA",
+      "url": "https://youtu.be/P-j_zeS0Pa8"
+    },
+    {
+      "title": "Reading Wikipedia to Answer Open-Domain Questions",
+      "url": "https://arxiv.org/abs/1704.00051"
+    },
+    {
+      "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
+      "url": "https://www.aclweb.org/anthology/P19-1612.pdf"
+    },
+    {
+      "title": "[Website] Natural Questions",
+      "url": "https://ai.google.com/research/NaturalQuestions"
+    },
+    {
+      "title": "retrieval-augmented generation",
+      "url": "https://arxiv.org/pdf/2005.11401.pdf"
+    },
+    {
+      "title": "WebGPT",
+      "url": "https://arxiv.org/abs/2112.09332"
+    },
+    {
+      "title": "Multi-hop QA",
+      "url": "https://youtu.be/jpRwa2iE_z8"
+    },
+    {
+      "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+      "url": "https://arxiv.org/abs/1809.09600"
+    },
+    {
+      "title": "Understanding Dataset Design Choices for Multi-hop Reasoning",
+      "url": "https://www.aclweb.org/anthology/N19-1405/"
+    },
+    {
+      "title": "Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering",
+      "url": "https://openreview.net/forum?id=SJgVHkrYDH"
+    },
+    {
+      "title": "QAMPARI",
+      "url": "https://arxiv.org/abs/2205.12665"
+    },
+    {
+      "title": "Dialogue: Chatbots",
+      "url": "https://youtu.be/vAZ7VlLXReE"
+    },
+    {
+      "title": "Task-Oriented Dialogue",
+      "url": "https://youtu.be/JXfAkX7kvnM"
+    },
+    {
+      "title": "Wizards of Wikipedia: Knowledge-Powered Conversational Agents",
+      "url": "https://arxiv.org/pdf/1811.01241.pdf"
+    },
+    {
+      "title": "Task-Oriented Dialogue as Dataflow Synthesis",
+      "url": "https://arxiv.org/abs/2009.11423"
+    },
+    {
+      "title": "Neural Chatbots",
+      "url": "https://youtu.be/Hc7P3QukmJk"
+    },
+    {
+      "title": "A Neural Network Approach to Context-Sensitive Generation of Conversational Responses",
+      "url": "https://arxiv.org/abs/1506.06714"
+    },
+    {
+      "title": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+      "url": "https://arxiv.org/abs/1510.03055"
+    },
+    {
+      "title": "Recipes for building an open-domain chatbot",
+      "url": "https://arxiv.org/pdf/2004.13637.pdf"
+    },
+    {
+      "title": "Kurt Shuster et al.",
+      "url": "https://arxiv.org/abs/2208.03188"
+    },
+    {
+      "title": "character.ai",
+      "url": "https://character.ai"
+    },
+    {
+      "title": "Machine Translation Intro",
+      "url": "https://youtu.be/9KAZ4-gKj9g"
+    },
+    {
+      "title": "Eisenstein 18.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "MT: Framework and Evaluation",
+      "url": "https://youtu.be/Oup0DEYJXEQ"
+    },
+    {
+      "title": "Eisenstein 18.1",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "MT: Word alignment",
+      "url": "https://youtu.be/dzOuPhBmFtE"
+    },
+    {
+      "title": "MT: IBM Models",
+      "url": "https://youtu.be/mbtk3VCG_2A"
+    },
+    {
+      "title": "HMM-Based Word Alignment in Statistical Translation",
+      "url": "https://www.aclweb.org/anthology/C96-2141.pdf"
+    },
+    {
+      "title": "Phrase-based Machine Translation",
+      "url": "https://youtu.be/0k8b5jGk-h4"
+    },
+    {
+      "title": "Pharaoh: A Beam Search Decoder for Phrase-Based Statistical Machine Translation Models",
+      "url": "http://homepages.inf.ed.ac.uk/pkoehn/publications/pharaoh-amta2004.pdf"
+    },
+    {
+      "title": "Minimum Error Rate Training in Statistical Machine Translation",
+      "url": "https://www.aclweb.org/anthology/P03-1021/"
+    },
+    {
+      "title": "Eisenstein 18.4",
+      "url": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf"
+    },
+    {
+      "title": "Neural and Pre-Trained Machine Translation",
+      "url": "https://youtu.be/bcP4b_4HQ8A"
+    },
+    {
+      "title": "Revisiting Low-Resource Neural Machine Translation: A Case Study",
+      "url": "https://arxiv.org/abs/1905.11901"
+    },
+    {
+      "title": "In Neural Machine Translation, What Does Transfer Learning Transfer?",
+      "url": "https://aclanthology.org/2020.acl-main.688/"
+    },
+    {
+      "title": "Multilingual Denoising Pre-training for Neural Machine Translation",
+      "url": "https://arxiv.org/abs/2001.08210"
+    },
+    {
+      "title": "Large Language Models Are State-of-the-Art Evaluators of Translation Quality",
+      "url": "https://arxiv.org/abs/2302.14520"
+    },
+    {
+      "title": "Summarization Intro",
+      "url": "https://youtu.be/lBDI1CBNe_U"
+    },
+    {
+      "title": "Extractive Summarization",
+      "url": "https://youtu.be/QWt2E3m00kA"
+    },
+    {
+      "title": "The use of MMR, diversity-based reranking for reordering documents and producing summaries",
+      "url": "https://dl.acm.org/doi/10.1145/290941.291025"
+    },
+    {
+      "title": "LexRank: Graph-based Lexical Centrality as Salience in Text Summarization",
+      "url": "https://arxiv.org/abs/1109.2128"
+    },
+    {
+      "title": "A Scalable Global Model for Summarization",
+      "url": "https://www.aclweb.org/anthology/W09-1802/"
+    },
+    {
+      "title": "Revisiting the Centroid-based Method: A Strong Baseline for Multi-Document Summarization",
+      "url": "https://www.aclweb.org/anthology/W17-4511/"
+    },
+    {
+      "title": "Pre-trained Summarization and Factuality",
+      "url": "https://youtu.be/feLTtTilycY"
+    },
+    {
+      "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+      "url": "https://www.aclweb.org/anthology/2020.acl-main.703/"
+    },
+    {
+      "title": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+      "url": "https://arxiv.org/abs/1912.08777"
+    },
+    {
+      "title": "Evaluating Factuality in Generation with Dependency-level Entailment",
+      "url": "https://arxiv.org/pdf/2010.05478.pdf"
+    },
+    {
+      "title": "Asking and Answering Questions to Evaluate the Factual Consistency of Summaries",
+      "url": "https://arxiv.org/abs/2004.04228"
+    },
+    {
+      "title": "News Summarization and Evaluation in the Era of GPT-3",
+      "url": "https://arxiv.org/abs/2209.12356"
+    },
+    {
+      "title": "Morphology",
+      "url": "https://youtu.be/ettP9Ayrho8"
+    },
+    {
+      "title": "Cross-lingual Tagging and Parsing",
+      "url": "https://youtu.be/rTSCLfxdxrI"
+    },
+    {
+      "title": "Unsupervised Part-of-Speech Tagging with Bilingual Graph-Based Projections",
+      "url": "https://www.aclweb.org/anthology/P11-1061/"
+    },
+    {
+      "title": "Multi-Source Transfer of Delexicalized Dependency Parsers",
+      "url": "https://www.aclweb.org/anthology/D11-1006/"
+    },
+    {
+      "title": "Cross-lingual Pre-training",
+      "url": "https://youtu.be/KNBRb8sjzOA"
+    },
+    {
+      "title": "Massively Multilingual Word Embeddings",
+      "url": "https://arxiv.org/pdf/1602.01925.pdf"
+    },
+    {
+      "title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
+      "url": "https://www.aclweb.org/anthology/Q19-1038.pdf"
+    },
+    {
+      "title": "How multilingual is Multilingual BERT?",
+      "url": "https://www.aclweb.org/anthology/P19-1493.pdf"
+    },
+    {
+      "title": "Language Grounding",
+      "url": "https://youtu.be/ayNoMmoXnd8"
+    },
+    {
+      "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+      "url": "https://aclanthology.org/2020.acl-main.463/"
+    },
+    {
+      "title": "Provable Limitations of Acquiring Meaning from Ungrounded Form: What Will Future Language Models Understand?",
+      "url": "https://arxiv.org/abs/2104.10809"
+    },
+    {
+      "title": "Entailment Semantics Can Be Extracted from an Ideal Language Model",
+      "url": "https://arxiv.org/abs/2209.12407"
+    },
+    {
+      "title": "Experience Grounds Language",
+      "url": "https://arxiv.org/abs/2004.10151"
+    },
+    {
+      "title": "Language and Vision",
+      "url": "https://www.youtube.com/watch?v=pkdV-iddZxk"
+    },
+    {
+      "title": "VQA: Visual Question Answering",
+      "url": "https://arxiv.org/abs/1505.00468"
+    },
+    {
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://arxiv.org/abs/2103.00020"
+    },
+    {
+      "title": "Ethics: Bias",
+      "url": "https://youtu.be/tTkAjNkXvH4"
+    },
+    {
+      "title": "The Social Impact of Natural Language Processing",
+      "url": "https://aclanthology.org/P16-2096.pdf"
+    },
+    {
+      "title": "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints",
+      "url": "https://arxiv.org/pdf/1707.09457.pdf"
+    },
+    {
+      "title": "Ethics: Exclusion",
+      "url": "https://youtu.be/0haVbW2ouzw"
+    },
+    {
+      "title": "GeoMLAMA: Geo-Diverse Commonsense Probing on Multilingual Pre-Trained Language Models",
+      "url": "https://arxiv.org/abs/2205.12247"
+    },
+    {
+      "title": "Visually Grounded Reasoning across Languages and Cultures",
+      "url": "https://arxiv.org/abs/2109.13238"
+    },
+    {
+      "title": "Ethics: Dangers of Automation",
+      "url": "https://youtu.be/2PSzHb08Xm4"
+    },
+    {
+      "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+      "url": "https://dl.acm.org/doi/10.1145/3442188.3445922"
+    },
+    {
+      "title": "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models",
+      "url": "https://arxiv.org/abs/2009.11462"
+    },
+    {
+      "title": "Ethics: Unethical Use and Paths Forward",
+      "url": "https://youtu.be/Hp8qfbsp57M"
+    },
+    {
+      "title": "Datasheets for Datasets",
+      "url": "https://arxiv.org/pdf/1803.09010.pdf"
+    },
+    {
+      "title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3351095.3372873"
+    }
+  ]
+}
