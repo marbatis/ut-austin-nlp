@@ -1,0 +1,7 @@
+beautifulsoup4
+requests
+nbformat
+nbclient
+jupyterlab
+scikit-learn
+matplotlib
