@@ -1,0 +1,9 @@
+beautifulsoup4
+requests
+nbformat
+nbclient
+jupyterlab
+scikit-learn
+matplotlib
+yt-dlp
+youtube-transcript-api
